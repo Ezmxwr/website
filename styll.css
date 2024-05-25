@@ -1,0 +1,330 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+    background-image: url("back.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #d773738f;
+ 
+ 
+}
+/* Table Styles */
+table {
+    font-family:Georgia, serif;
+    margin: 2em auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+tr :hover{
+    background-color: #f2f2f2;
+    border-radius: 50px;
+}
+.pro{
+    width:50%;
+    display:inline-block;
+}
+.pro .dis{
+    display: none;
+}
+.pri .tr:hover .hidden-element{
+  display:block;
+}
+
+.pro:hover{
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    -webkot-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+}
+td {
+    padding: 1em;
+    text-align: center;
+    font-size: 20px;
+}
+td img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+caption {
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+
+caption a {
+    color: #3c105c;
+    background-color: rgba(250, 235, 215, 0.4);
+    border: 2px solid whitesmoke ;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding:10px;
+}
+
+caption a:hover {
+    text-decoration: underline;
+}
+
+/* main */
+h1 {
+    color:#250425;
+    font-size: 30px;
+    padding: 20px;
+    border: 2px solid whitesmoke ;
+    background-color: rgba(133, 125, 130, 0.497);
+    
+}
+h3{
+    color: #7b54d5ba;
+    background-color: antiquewhite;
+    font-size: 30px;
+    margin: 50px;
+}
+.main {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.main ul {
+    font-size:22px;
+    list-style: none;
+    padding: 10px;
+    margin: 28px;
+    text-align: center;
+}
+  
+
+.main ul li{
+    display:inline-table;
+    margin: 1%;
+    font-size:30px;
+}
+.main ul li a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#0f063a;
+    padding:10px;
+    border: 2px solid whitesmoke ;
+    background-color: rgba(133, 125, 130, 0.497);
+    border-radius: 5px;
+    display: inline;
+    
+}
+  
+.main ul li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/* Form Styles */
+form {
+    margin: 2em 0;
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 200px;
+}
+
+input[type="submit"] {
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.5em;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Add to Cart Form Styles */
+form[action='addtocart.php'] {
+    text-align: center;
+}
+
+select {
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/*view*/
+.view{
+    font-family:"Times New Roman", Times, serif;
+    margin: 2em auto;
+    width: 80%;
+    font-size: 20px;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+.view th, td{
+    padding:10px;
+    color: #3c105c;
+}
+/*procart*/
+.receipt-container h1{
+    color:#190f32;
+    font-size: 30px;
+    border: 2px solid whitesmoke ;
+    background-color: rgba(250, 235, 215, 0.4);
+    padding: 20px;
+}
+.receipt-container .receipt-table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2em auto;
+    width: 80%;
+    font-size: 20px;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 20px;
+}
+.receipt-table th, td{
+    padding:10px;
+}
+.receipt-table th{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*update*/
+h2{
+    font-size:25px;
+    color: #3c105c;
+    background-color: rgba(250, 235, 215, 0.4);
+    border: 2px solid whitesmoke ;
+}
+.up{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2em auto;
+    width: 95%;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.up h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+/*.up table{
+    display: none;
+}
+.up h2:hover .up{
+    display: block;
+}*/
+.up th{
+    padding:20px;
+    font-size:23px;
+    white-space:nowrap;
+}
+.up td{
+    font-size:19px;
+}
+.up .qty{
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.7em;
+}
+
+.add-product-form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.add-product-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.add-product-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.add-product-form input[type="text"],
+.add-product-form input[type="number"],
+.add-product-form input[type="file"],
+.add-product-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-product-form textarea {
+    height: 100px;
+}
+
+.add-product-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.add-product-form button:hover {
+    background-color: #218838;
+}
+
